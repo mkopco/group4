@@ -7,17 +7,18 @@
     <title>Page Title Goes Here</title>
     <meta name="description" content="Page Description Goes Here">
   </head>
-  <body>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<body>
        <header role="banner">
       <img src="index.svg" alt="Company Logo" height="50%" width="50%"> 
     </header>
     <nav class="fixed-nav-bar" role="navigation">
-       <ul>
-       	<li><a href="index.html">Home</a></li>
-       	<li><a href="about.html">About</a></li>
-       	<li><a href="services.html">Services</a></li>
-       	<li>Tips</li>
-       	<li>Promotions</li>
+       <ul class="navbar">
+       	<li class="navv"><a href="index.html">Home</a></li>
+       	<li class="navv"><a href="about.html">About</a></li>
+       	<li class="navv"><a href="services.html">Services</a></li>
+       	<li class="navv">Tips</li>
+       	<li class="navv">Promotions</li>
        </ul>
     </nav>
     <h2>Our Services</h2>
@@ -28,55 +29,92 @@
       <li>Fleet Service</li>
       <li>And much more!</li>
    </ul>
-   <div class="accordion horizontal">
-   	<section>
-        <h2>Oil and Oil Filter Service</h2>
-        <p>Experts recommend changing the oil and oil filter in your vehicle every 3 months or 3,000 miles, whichever is first. It’s an essential way to maximize engine protection.</p>
-    </section>
-    <section>
-        <h2>Engine Oil</h2>
-        <p>Engine oil is what lubricates a car’s engine, allowing it to run smoothly and last longer. Car owners must maintain their cars’ engines by changing the oil and using the oil appropriate for their cars’ makes and models. </p>
-    </section>
-    <section>
-        <h2>Oil Change</h2>
-        <p>An important part of routine car maintenance is changing the oil regularly. f the check engine oil light comes on when you’re driving, this is a strong indication that the car is running low on oil.</p>
-    </section>
-    <section>
-        <h2>Cooling System Service</h2>
-        <p>We can flush your vehicle’s cooling system, perform a pressure test and check hoses, caps and connections.</p>
-    </section>
-    <section>
-        <h2>Air Conditioning Service</h2>
-        <p>One of our trained air conditioning specialists will inspect your car’s air conditioner, all lines, the evaporator and the compressor for leaks and wear.</p>
-    </section>
-    <section>
-        <h2>Driveline Service</h2>
-        <p>We will remove old, worn-out gear oil from the front and rear differential and transfer cases.</p>
-    </section>
-    <section>
-        <h2>Fuel-Air Induction Cleanup</h2>
-        <p>Using specialized equipment, our technicians will quickly and effectively clean the intake manifold, ports, intake valves and combustion chamber and install injector cleaning additives in your vehicle’s tank. This service will restore lost power and performance and will reduce harmful exhaust emissions.</p>
-    </section>
-    <section>
-        <h2>Power Steering Flush</h2>
-        <p>Our technicians use a powerful cleaner to dissolve gum and varnish in your car’s power steering unit. Next, we will flush old, worn-out, contaminated fluid and install fresh, new fluid fortified with a special antioxidant and anti-wear ingredients to prevent expensive mechanical failure.</p>
-    </section>
-    <section>
-        <h2>Transmission Service</h2>
-        <p>Using the latest in state-of-the-art technology, we will install a safe and effective cleaner to suspend harmful varnish and sludge from the transmission valve body, torque converter and lines and install new high-tech fluid with conditioners.</p>
-    </section>
-    <section>
-        <h2>Brake Service</h2>
-        <p>By having your brakes inspected twice a year, you can protect yourself and your passengers, and you can save money by catching any problems before they become too costly. Inspecting your brakes twice a year for wear and damage can protect you and your passengers. Additionally, it will help you save money by catching any damage before it becomes too costly.</p>
-    </section>
-    <section>
-        <h2>Tire Service</h2>
-        <p>Improve your vehicle’s handling, increase tire life and drive more safely by checking your tires every month to ensure that they are inflated with the right amount of air pressure. We offer a wide range of tires for your vehicle. Let our professionals help you find, balance and mount the right tires for your car.</p>
-    </section>
-   </div>
-    <footer role="content info">
-      <h2>Make an Appointment</h2>
-      </footer>
+<div id="container">
+		<header>
+			<h1>Our Services</h1>
+			<p>Since 1997 our ASE Certified, factory trained technicians have been serving customers just like you. With over 45 years of combined experience our NAPA Auto Care Center knows what you need. We specializing in Jasper Replacement Engines, Transmissions and Differentials Replacement and Repair. We use electrical diagnostics and state of the art equipment.<p>
+		</header>
+		<section id="accordion">
+			<div id="container">
+		<header>
+			<h1>Our Services</h1>
+			<p>Since 1997 our ASE Certified, factory trained technicians have been serving customers just like you. With over 45 years of combined experience our NAPA Auto Care Center knows what you need. We specializing in Jasper Replacement Engines, Transmissions and Differentials Replacement and Repair. We use electrical diagnostics and state of the art equipment.<p>
+		</header>
+		<section id="accordion">
+			<div>
+				<input type="checkbox" id="check-1" />
+				<label for="check-1">Oil and Filter Services</label>
+				<article>
+					<p>Experts recommend changing the   oil and oil filter in your vehicle every 3 months or 3,000 miles, whichever is first. It’s an essential way to maximize engine protection.</p>
+				</article>
+			</div>
+			<div>
+				<input type="checkbox" id="check-2" />
+				<label for="check-2">Engine Oil</label>
+				<article>
+					<p>Engine oil is what lubricates a car’s engine, allowing it to run smoothly and last longer. Car owners must maintain their cars’ engines by changing the oil and using the oil appropriate for their cars’ makes and models.An important part of routine car maintenance is changing the oil regularly.If the check engine oil light comes on when you’re driving, this is a strong indication that the car is running low on oil. A driver does not need a mechanic to add oil.</p>
+				</article>
+			</div>
+			<div>
+				<input type="checkbox" id="check-3" />
+				<label for="check-3">Cooling System</label>
+				<article>
+					<p>We can flush your vehicle’s cooling system, perform a pressure test and check hoses, caps and connections.</p>
+</article>
+</div>
+<div>
+				<input type="checkbox" id="check-4" />
+<label for="check-4">Air Conditioning</label>
+				<article>
+					<p>One of our trained air conditioning specialists will inspect your car’s air conditioner, all lines, the evaporator and the compressor for leaks and wear.</p>
+				</article>
+			</div>
+			<div>
+<input type="checkbox" id="check-5" />
+<label for="check-5">Driveline Service</label>
+				<article>
+					<p>We will remove old, worn-out gear oil from the front and rear differential and transfer cases.</p>
+				</article>
+			</div>
+			<div>
+<input type="checkbox" id="check-6" />
+<label for="check-6">Fuel/Air Induction Clean-up</label>
+				<article>
+					<p>Using specialized equipment, our technicians will quickly and effectively clean the intake manifold, ports, intake valves and combustion chamber and install injector cleaning additives in your vehicle’s tank. This service will restore lost power and performance and will reduce harmful exhaust emissions.</p>
+				</article> 
+			</div>
+			<div>
+<input type="checkbox" id="check-7" />
+<label for="check-7">Power Steering Flush</label>
+				<article>
+					<p>Our technicians use a powerful cleaner to dissolve gum and varnish in your car’s power steering unit. Next, we will flush old, worn-out, contaminated fluid and install fresh, new fluid fortified with a special antioxidant and anti-wear ingredients to prevent mechanical failure.</p>
+				</article>  
+			</div>
+			<div>
+<input type="checkbox" id="check-8" />
+<label for="check-8">Transmission Service</label>
+				<article>
+					<p>Using the latest in state-of-the-art technology, we will install a safe and effective cleaner to suspend harmful varnish and sludge from the transmission valve body, torque converter and lines and install new high-tech fluid with conditioners.</p>
+				</article> 
+			</div>
+			<div>
+<input type="checkbox" id="check-9" />
+<label for="check-9">Break Service</label>
+				<article>
+					<p>Brakes are crucial to keeping you and your loved ones safe on the road. If you have ever had problems with your brakes, you can attest to the fact that it can be a terrible experience. By having your brakes inspected twice a year, you can protect yourself and your passengers, and you can save money by catching any problems before they become too costly.
+Inspecting your brakes twice a year for wear and damage can protect you and your passengers. Additionally, it will help you save money by catching any damage before it becomes too costly.</p>
+				</article> 
+			</div>
+			<div>
+<input type="checkbox" id="check-10" />
+<label for="check-10">Tire Service</label>
+				<article>
+					<p>Improve your vehicle’s handling, increase tire life and drive more safely by checking your tires every month to ensure that they are inflated with the right amount of air pressure. We offer a wide range of tires for your vehicle. Let our professionals help you find, balance and mount the right tires for your car.</p>
+				</article> 
+			</div>
+		</section>
+  </div>
+    </footer> 
       <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
   </body>
 </html>
