@@ -52,8 +52,11 @@ color: #342F36;}
 
 h1 {
   font-family: 'Open Sans', sans;
-  color: #2E2E2E;
-}
+  color: #2E2E2E;}
+
+.formhead{
+  background-color:black;}
+
 p {
 	font-family: 'Open Sans', sans;
   color: #2E2E2E;
