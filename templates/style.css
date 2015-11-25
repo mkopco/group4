@@ -93,7 +93,7 @@ h1 {
   font-family: 'Open Sans', sans;
 }
 
-#accordion label:hover {
+#accordion label:hover, #accordion label:focus {
 	background: #5E5D5E;
 }
 
