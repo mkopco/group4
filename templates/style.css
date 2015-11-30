@@ -46,13 +46,14 @@ a:link, a:visited {
   position: fixed
   z-index: 1;
   padding-top: 5px;}
+  
+h1 {
+  font-family: 'Open Sans', sans;
+  color: #2E2E2E;}
 
 h1, h2, h3{
 color: #342F36;}
 
-h1 {
-  font-family: 'Open Sans', sans;
-  color: #2E2E2E;}
 
 .formhead{
   background-color:black;}
@@ -74,7 +75,7 @@ h1 {
 
 #container {
     margin: 0 auto;
-    width: 50%;
+    width: 500%;
 }
 
 #accordion input {
