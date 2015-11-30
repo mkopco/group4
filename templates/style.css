@@ -1,47 +1,50 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 body {
-  max-width: 1000px;
-  padding: 1em;
+  max-width: 10000px;
+  border: 0px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.fixed-nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 100%;
-  height: 50px; 
-  color: rgb(230, 231, 231);
-  background-color: rgb(148, 44, 32);}
+    #wrapper {
+      width: relative;}
 
-.navbar {
-    list-style-type: none;
-    float:right;
-    margin: 1;
-    padding: 10;}
-.navv{
-    float: left;
-    display: block;
-    width: 120px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 4px;
-    padding-top: 1px;
-    text-transform: uppercase;}
+    nav {
+      margin-top: 30px;
+      display: table;
+      z-index: 2;
+      width: 100%;
+      height: 40px;}
+    
+    nav ul {
+      display: table-row;}
+    
+    nav li {
+      display: table-cell;
+      margin: 0;
+      text-align: center;}
+@media screen and (max-width: 550px){
+    #wrapper {
+        font-size:.75em;}}
+@media screen and (max-width: 430px){
+    #wrapper {
+        font-size:.60em;}}
+    
+    nav li a {
+      display: block;
+      padding: 22px 19px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Open Sans', sans;
+      font-size: 1em;
+      color: #FFFFFF;
+      background-color: rgb(148, 44, 32);}
 
-
-a:link, a:visited {
-    display: block;
-    width: 120px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;}
-
+    nav li a:hover {
+      background-color: rgb(230, 231, 231);
+      display: block;
+      color: #342F36;}
+      
+      
 .logo{
   position: fixed
   z-index: 1;
