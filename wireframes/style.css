@@ -1,7 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 body {
-  max-width: 1000px;
-  padding: 1em;
+  max-width: 5000px;
+  min-width: 300px;
+  border: 0px;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+    #wrapper {
+      width: relative;
+      position: fixed;}
+
+    nav {
+      margin-top: 30px;
+      display: table;
+      z-index: 2;
+      width: 100%;
+      height: 40px;}
+    
+    nav ul {
+      display: table-row;}
+    
+    nav li {
+      display: table-cell;
+      margin: 0;
+      text-align: center;}
+@media screen and (max-width: 550px){
+    #wrapper {
+        font-size:.75em;}}
+@media screen and (max-width: 430px){
+    #wrapper {
+        font-size:.60em;}}
+@media screen and (max-width: 414px){
+    #wrapper {
+        font-size:.50em;}}
+@media screen and (max-width: 326px){
+    #wrapper {
+        font-size:.40em;}}
+    
+    nav li a {
+      display: block;
+      padding: 22px 19px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Open Sans', sans;
+      font-size: 1em;
+      color: #FFFFFF;
+      background-color: rgb(148, 44, 32);}
+
+    nav li a:hover {
+      background-color: rgb(230, 231, 231);
+      display: block;
+      color: #342F36;}
+      
+      
+.logo{
+  position: fixed
+  z-index: 1;
+  padding-top: 5px;}
+  
+h1 {
+  font-family: 'Open Sans', sans;
+  color: #2E2E2E;
+  text-align: center;}
+h1, h2, h3{
+color: #342F36;
+text-align: center;}
+
+
+p {
+	font-family: 'Open Sans', sans;
+  color: #2E2E2E;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  font-size: .95em;
+  line-height: 1.45em;
+}
+h1 {
+	margin: 1em 0 0 0;
+	text-align: Left;
+}
+
+#container {
+    margin: 0 auto;
+    width: 500%;
+}
+
+#accordion input {
+	display: none;
+}
+
+#accordion label {
+	background: #2E2E2E;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+  color: #E7E7E6;
+  font-family: 'Open Sans', sans;
+}
+
+#accordion label:hover, #accordion label:focus {
+	background: #5E5D5E;
+}
+
+#accordion input:checked + label {
+	background: #2E2E2E;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: #E7E7E6;
+	margin-bottom: 0;
+}
+
+#accordion article {
+	background: #E7E7E6;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+
+#accordion article p {
+	padding: 1em;
+}
+
+#accordion input:checked article {
+}
+
+#accordion input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
 }
 
 div, section, main, aside, header, footer {
