@@ -81,4 +81,51 @@ h1 {
 	margin: 1em 0 0 0;
 	text-align: Left;
 
+/***************************
+****************************
+These are the styles for
+the form
+****************************
+***************************/
+h2{
+  color: #342F36;
+  font-family: "Open Sans";
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.75em;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+input[type="text"]{
+margin-bottom: 10px;
+margin-top: 10px;
+width: 50%;
+padding: 15px;
+border:1px solid #342F36;
+}
+
+input, textarea {
+	padding: 15px;
+	max-width: 100%;
+  border: 1px solid #342F36;
+  max-height: 185px;
+}
+
+input[type="submit"]{
+margin-bottom: 10px;
+margin-top: 10px;
+width: 20%;
+background-color: #342F36;
+padding: 15px 20px;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+text-transform: uppercase;
+color: #E7E7E6;
+font-weight: 500;
+border: 0;
+display: table;
+margin: 30px auto 0;
+clear: both;
+}
 
