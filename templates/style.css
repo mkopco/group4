@@ -108,8 +108,8 @@ border:1px solid #342F36;
 input, textarea {
 	padding: 15px;
 	max-width: 100%;
-  border: 1px solid #342F36;
-  max-height: 185px;
+  	border: 1px solid #342F36;
+  	max-height: 185px;
 }
 
 input[type="submit"]{
