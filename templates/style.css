@@ -31,6 +31,9 @@ body {
 @media screen and (max-width: 414px){
     #wrapper {
         font-size:.50em;}}
+@media screen and (max-width: 326px){
+    #wrapper {
+        font-size:.40em;}}
     
     nav li a {
       display: block;
