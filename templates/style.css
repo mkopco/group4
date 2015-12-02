@@ -1,23 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 body {
-  max-width: 100%;
-  border-top: 10px;
+  max-width: 10000px;
+  border: 0px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
     #wrapper {
-      max-width: 100%;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      left: 0; 
-      background-color: rgba(148, 44, 32,.98)}
+      width: relative;}
 
     nav {
+      margin-top: 30px;
       display: table;
       z-index: 2;
-      height: 40px;
-      float: right;}
+      width: 100%;
+      height: 40px;}
     
     nav ul {
       display: table-row;}
@@ -35,9 +31,6 @@ body {
 @media screen and (max-width: 414px){
     #wrapper {
         font-size:.50em;}}
-@media screen and (max-width: 326px){
-    #wrapper {
-        font-size:.40em;}}
     
     nav li a {
       display: block;
@@ -63,13 +56,17 @@ body {
 h1 {
   font-family: 'Open Sans', sans;
   color: #2E2E2E;}
-h2, h3{
+
+h1, h2, h3{
 color: #342F36;}
 
 
+.formhead{
+  background-color:black;}
+
 p {
 	font-family: 'Open Sans', sans;
-  color: #2E2E2E;
+  	color: #2E2E2E;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -80,6 +77,86 @@ p {
 h1 {
 	margin: 1em 0 0 0;
 	text-align: Left;
+}
+
+#container {
+    margin: 0 auto;
+    width: 500%;
+}
+
+#accordion input {
+	display: none;
+}
+
+#accordion label {
+	background: #2E2E2E;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+  color: #E7E7E6;
+  font-family: 'Open Sans', sans;
+}
+
+#accordion label:hover, #accordion label:focus {
+	background: #5E5D5E;
+}
+
+#accordion input:checked + label {
+	background: #2E2E2E;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: #E7E7E6;
+	margin-bottom: 0;
+}
+
+#accordion article {
+	background: #E7E7E6;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+
+#accordion article p {
+	padding: 1em;
+}
+
+#accordion input:checked article {
+}
+
+#accordion input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+/***************************
+****************************
+These are the styles for
+the big quote
+****************************
+***************************/
+p.quote {
+  text-align: left;
+  color: #E7E7E6;
+  font-family: "Open Sans";
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 4em;
+  letter-spacing: 0.8px;
+  font-weight: 800;
+  padding: 120px;
+  background: #952A20;
+}
+
 
 /***************************
 ****************************
