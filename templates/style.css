@@ -6,7 +6,8 @@ body {
 }
 
     #wrapper {
-      width: 100%;}
+      max-width: 100%;
+      position: fixed;}
 
     nav {
       margin-top: 30px;
@@ -80,7 +81,7 @@ h1 {
 
 #container {
     margin: 0 auto;
-    width: 500%;
+    width: 100%;
 }
 
 #accordion input {
@@ -132,10 +133,5 @@ h1 {
 	margin-bottom: .125em;
 }
 
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
-}
 
 
