@@ -3,13 +3,10 @@ body {
 <<<<<<< HEAD
   max-width: 10000px;
   border: 0px;
-=======
   max-width: 100%;
   border-top: 0px;
   padding-top: 20px;
->>>>>>> origin/gh-pages
-  font-family: Helvetica, Arial, sans-serif;
-}
+  font-family: Helvetica, Arial, sans-serif;}
 
     #wrapper {
       width: relative;}
