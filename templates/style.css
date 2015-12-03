@@ -9,7 +9,10 @@ body {
   font-family: Helvetica, Arial, sans-serif;}
 
     #wrapper {
-      width: relative;}
+      width: relative;
+      position:fixed; 
+      top: 0;
+      left: 0;}
 
     nav {
       margin-top: 30px;
