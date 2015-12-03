@@ -52,6 +52,10 @@ body {
       display: block;
       color: #342F36;}
       
+	.barlogo {
+	float: left;
+    width: 25%; 
+    height: 60px;}
   
 h1 {
   font-family: 'Open Sans', sans;
