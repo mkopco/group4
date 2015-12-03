@@ -68,17 +68,32 @@ main {
 
 p {
 	font-family: 'Open Sans', sans;
+	font-weight: 400;
   	color: #2E2E2E;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
-  font-size: .95em;
-  line-height: 1.45em;
+  	font-size: .95em;
+  	line-height: 1.45em;
 }
+
+body { 
+  font-family: "open sans",  sans- serif;
+  text-align: left;
+  color: #342F36;
+}
+
 h1 {
 	margin: 1em 0 0 0;
 	text-align: Left;
+	font-weight: 700;
+  	font-size: 2.25em;
+  	color:#952A20;
+}
+
+h3 {
+  font-weight: 600;
 }
 
 /***************************
@@ -88,13 +103,13 @@ the big quote
 ****************************
 ***************************/
 p.quote {
-  text-align: left;
+  text-align: center;
   color: #E7E7E6;
   font-family: "Open Sans";
   font-size: 4em;
   letter-spacing: 0.8px;
   font-weight: 800;
-  padding: 120px;
+  padding: 200px;
   background: #952A20;
 }
 
