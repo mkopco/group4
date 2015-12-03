@@ -55,7 +55,8 @@ body {
 	.barlogo {
 	float: left;
     width: 25%; 
-    height: 60px;}
+    height: 60px;
+    padding-bottom: 1px;}
   
 h1 {
   font-family: 'Open Sans', sans;
