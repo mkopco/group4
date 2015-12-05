@@ -154,49 +154,6 @@ clear: both;
 /***************************
 ****************************
 These are the styles for
-the footer.
-****************************
-***************************/
-dt {
-  text-align: center;
-  color: #4D8BC9;
-  text-transform: uppercase;
-  font-size: .9em;
-  font-weight: bold;
-  margin-bottom: .5em;}
-
-dd {
-  text-align: center;
-  margin-left: 0;
-  margin-bottom: 1em;
-  font-size: .9em;
-  line-height: 1.5;
-  color: #342F36;}
-
-footer a {
-  color: #342F36;}
-  
-footer {
-  padding-bottom: 1em;
-  margin-top: 30px;
-  text-align: center;}
-
-@media screen and (min-width: 800px){
-  footer {
-   max-width: 900px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;}
-  
-.contact {
-  float: left;
-  width: 33.33%;
-  padding-top: 1em;
-  padding-bottom: 2em;}
-  
-  /***************************
-****************************
-These are the styles for
 the big quote
 ****************************
 ***************************/
@@ -256,3 +213,47 @@ p.quote {
   p.quote {
     font-size: .7em;
     padding: 30px;}} 
+/***************************
+****************************
+These are the styles for
+the footer.
+****************************
+***************************/
+dt {
+  text-align: center;
+  color: #4D8BC9;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: bold;
+  margin-bottom: .5em;}
+
+dd {
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 1em;
+  font-size: .9em;
+  line-height: 1.5;
+  color: #342F36;}
+
+footer a {
+  color: #342F36;}
+  
+footer {
+  padding-bottom: 1em;
+  margin-top: 30px;
+  text-align: center;}
+
+@media screen and (min-width: 800px){
+  footer {
+   max-width: 900px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;}
+  
+.contact {
+  float: left;
+  width: 33.33%;
+  padding-top: 1em;
+  padding-bottom: 2em;}
+  
+  
