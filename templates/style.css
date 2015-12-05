@@ -213,7 +213,7 @@ p.quote {
 @media screen and (max-width: 1000px){
   p.quote {
     font-size: 4.5em;}}
-  @media screen and (max-width: 900px){
+@media screen and (max-width: 900px){
   p.quote {
     font-size: 4.25em;
     font-weight: 700;
@@ -223,36 +223,36 @@ p.quote {
     font-size: 4em;
     font-weight: 600;
     padding: 125px;}}
-  @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
   p.quote {
     font-size: 3em;
     padding: 100px;}}
-  @media screen and (max-width: 475px){
+@media screen and (max-width: 475px){
   p.quote {
     font-size: 2.25em;
     font-weight: 500;
     padding: 90px;}}
-  @media screen and (max-width: 450px){
+@media screen and (max-width: 450px){
   p.quote {
     font-size: 1.75em;
     padding: 90px;}}
-   @media screen and (max-width: 385px){
+@media screen and (max-width: 385px){
   p.quote {
     font-size: 1.5em;
     padding: 80px;}} 
- @media screen and (max-width: 345px){
+@media screen and (max-width: 345px){
   p.quote {
     font-size: 1em;
     padding: 60px;} 
-  @media screen and (max-width: 260px){
+@media screen and (max-width: 260px){
   p.quote {
     font-size: .9em;
     padding: 50px;}} 
-   @media screen and (max-width: 225px){
+@media screen and (max-width: 225px){
   p.quote {
     font-size: .8em;
     padding: 40px;}}
-   @media screen and (max-width: 195px){
+@media screen and (max-width: 195px){
   p.quote {
     font-size: .7em;
     padding: 30px;}} 
