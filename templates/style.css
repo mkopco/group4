@@ -175,7 +175,7 @@ the footer.
 ***************************/
 dt {
   text-align: center;
-  color: #E7E7E6;
+  color: #4D8BC9;
   text-transform: uppercase;
   font-size: .9em;
   font-weight: bold;
@@ -188,10 +188,20 @@ dd {
   font-size: .9em;
   line-height: 1.5;
   color: #342F36;}
+
+footer a {
+  color: #342F36;}
   
 footer {
   padding-bottom: 1em;
   text-align: center;}
+
+@media screen and (min-width: 800px){
+  footer {
+   max-width: 900px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;}
   
 .contact {
   float: left;
