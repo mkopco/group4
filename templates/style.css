@@ -167,4 +167,34 @@ margin: 30px auto 0;
 clear: both;
 }
 
+/***************************
+****************************
+These are the styles for
+the footer.
+****************************
+***************************/
+dt {
+  text-align: center;
+  color: #E7E7E6;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: bold;
+  margin-bottom: .5em;}
 
+dd {
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 1em;
+  font-size: .9em;
+  line-height: 1.5;
+  color: #342F36;}
+  
+footer {
+  padding-bottom: 1em;
+  text-align: center;}
+  
+.contact {
+  float: left;
+  width: 33.33%;
+  padding-top: 1em;
+  padding-bottom: 2em;}
