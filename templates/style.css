@@ -27,15 +27,15 @@ body {
       display: table-cell;
       margin: 0;
       text-align: center;}
-@media screen and (max-width: 550px){
+@media screen and (max-width: 664px){
     #wrapper {
         font-size:.75em;}}
-@media screen and (max-width: 430px){
+@media screen and (max-width: 472px){
     #wrapper {
         font-size:.60em;}}
 @media screen and (max-width: 414px){
     #wrapper {
-        font-size:.50em;}}
+        font-size:.40em;}}
     
     nav li a {
       display: block;
