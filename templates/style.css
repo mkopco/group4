@@ -29,13 +29,13 @@ body {
       text-align: center;}
 @media screen and (max-width: 664px){
     #wrapper {
-        font-size:.75em;}}
+        font-size:.70em;}}
 @media screen and (max-width: 472px){
     #wrapper {
         font-size:.60em;}}
 @media screen and (max-width: 414px){
     #wrapper {
-        font-size:.40em;}}
+        font-size:.35em;}}
     
     nav li a {
       display: block;
