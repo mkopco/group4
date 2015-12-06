@@ -137,69 +137,6 @@ cite {
 @media screen and (min-width: 825px){
   cite {
     margin-left: 10%;}}
-    
-/***************************
-****************************
-These are the styles for
-the big quote
-****************************
-***************************/
-p.quote {
-  text-align: center;
-  color: #E7E7E6;
-  font-family: "Open Sans";
-  font-size: 5em;
-  letter-spacing: 0.8px;
-  font-weight: 800;
-  padding: 175px;
-  background: #4D8BC9;}
-
-@media screen and (max-width: 195px){
-  p.quote {
-    font-size: .7em;
-    padding: 30px;}}
-@media screen and (max-width: 225px){
-  p.quote {
-    font-size: .8em;
-    padding: 40px;}}
-@media screen and (max-width: 260px){
-  p.quote {
-    font-size: .9em;
-    padding: 50px;}} 
-@media screen and (max-width: 345px){
-  p.quote {
-    font-size: 1em;
-    padding: 60px;} 
-@media screen and (max-width: 385px){
-  p.quote {
-    font-size: 1.5em;
-    padding: 80px;}} 
-@media screen and (max-width: 450px){
-  p.quote {
-    font-size: 1.75em;
-    padding: 90px;}}
-@media screen and (max-width: 475px){
-  p.quote {
-    font-size: 2.25em;
-    font-weight: 500;
-    padding: 90px;}}
-@media screen and (max-width: 600px){
-  p.quote {
-    font-size: 3em;
-    padding: 100px;}}
-@media screen and (max-width: 800px){
-  p.quote {
-    font-size: 4em;
-    font-weight: 600;
-    padding: 125px;}} 
-@media screen and (max-width: 900px){
-  p.quote {
-    font-size: 4.25em;
-    font-weight: 700;
-    padding: 150px;}}
-@media screen and (max-width: 1000px){
-  p.quote {
-    font-size: 4.5em;}}
 
 /***************************
 ****************************
@@ -294,3 +231,65 @@ footer {
   padding-bottom: 2em;}
   
   
+/***************************
+****************************
+These are the styles for
+the big quote
+****************************
+***************************/
+p.quote {
+  text-align: center;
+  color: #E7E7E6;
+  font-family: "Open Sans";
+  font-size: 5em;
+  letter-spacing: 0.8px;
+  font-weight: 800;
+  padding: 175px;
+  background: #4D8BC9;}
+
+@media screen and (max-width: 195px){
+  p.quote {
+    font-size: .7em;
+    padding: 30px;}}
+@media screen and (max-width: 225px){
+  p.quote {
+    font-size: .8em;
+    padding: 40px;}}
+@media screen and (max-width: 260px){
+  p.quote {
+    font-size: .9em;
+    padding: 50px;}} 
+@media screen and (max-width: 345px){
+  p.quote {
+    font-size: 1em;
+    padding: 60px;} 
+@media screen and (max-width: 385px){
+  p.quote {
+    font-size: 1.5em;
+    padding: 80px;}} 
+@media screen and (max-width: 450px){
+  p.quote {
+    font-size: 1.75em;
+    padding: 90px;}}
+@media screen and (max-width: 475px){
+  p.quote {
+    font-size: 2.25em;
+    font-weight: 500;
+    padding: 90px;}}
+@media screen and (max-width: 600px){
+  p.quote {
+    font-size: 3em;
+    padding: 100px;}}
+@media screen and (max-width: 800px){
+  p.quote {
+    font-size: 4em;
+    font-weight: 600;
+    padding: 125px;}} 
+@media screen and (max-width: 900px){
+  p.quote {
+    font-size: 4.25em;
+    font-weight: 700;
+    padding: 150px;}}
+@media screen and (max-width: 1000px){
+  p.quote {
+    font-size: 4.5em;}}
