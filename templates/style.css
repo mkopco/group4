@@ -58,7 +58,6 @@ body {
     height: 60px;
     padding-bottom: 1px;}
   
-  
 h1 {
   font-family: 'Open Sans', sans;
   color: #2E2E2E;}
@@ -104,17 +103,9 @@ h3 {
 /***************************
 ****************************
 These are the styles for
-the quote
+the quotesm
 ****************************
 ***************************/
-
-.quote {
-  background-repeat: no-repeat;
-  background-position: 0;
-  position: relative;
-  background-image: url("redcar.jpg")
-}
-
 blockquote {
   width: 70%;
   text-align: left;
@@ -330,15 +321,25 @@ These are the styles for
 the big quote
 ****************************
 ***************************/
+.quote {
+  background-repeat: no-repeat;
+  background-position: 0;
+  position: relative;
+  background-image: url("http://new2016releasedate.com/wp-content/uploads/2015/11/car-engine-picture.jpg")
+}
+
 p.quote {
-  text-align: center;
+  text-align: left;
   color: #E7E7E6;
-  font-family: "Open Sans";
-  font-size: 5em;
+  font-family: "open sans", sans-serif;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 4em;
   letter-spacing: 0.8px;
   font-weight: 800;
-  padding: 175px;
-  background: #4D8BC9;}
+  padding: 120px;
+  ;
+}
 
 @media screen and (max-width: 195px){
   p.quote {
