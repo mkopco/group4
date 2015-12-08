@@ -14,7 +14,8 @@ body {
       top: 0;
       width: 100%;
       left: 0;
-      background-color: rgba(148, 44, 32,.98);}
+      background-color: rgba(148, 44, 32,.98);
+      z-index: 100;}
 
     nav {
       display: table;
@@ -325,7 +326,7 @@ the big quote
   background-repeat: no-repeat;
   background-position: 0;
   position: relative;
-  background-image: src("red_car.jpg")
+  background-image: url("red_car.jpg");
 }
 
 p.quote {
