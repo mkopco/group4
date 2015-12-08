@@ -325,7 +325,7 @@ the big quote
   background-repeat: no-repeat;
   background-position: 0;
   position: relative;
-  background-image: url("redcar.jpg")
+  background-image: src("red_car.jpg")
 }
 
 p.quote {
