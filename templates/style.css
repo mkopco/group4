@@ -58,6 +58,7 @@ body {
     height: 60px;
     padding-bottom: 1px;}
   
+  
 h1 {
   font-family: 'Open Sans', sans;
   color: #2E2E2E;}
@@ -103,9 +104,17 @@ h3 {
 /***************************
 ****************************
 These are the styles for
-the quotesm
+the quote
 ****************************
 ***************************/
+
+.quote {
+  background-repeat: no-repeat;
+  background-position: 0;
+  position: relative;
+  background-image: url("redcar.jpg")
+}
+
 blockquote {
   width: 70%;
   text-align: left;
