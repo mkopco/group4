@@ -1,3 +1,4 @@
+* {box-sizing: border-box}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 body {
 <<<<<<< HEAD
@@ -238,7 +239,7 @@ h2 {
 input[type="text"]{
 margin-bottom: 10px;
 margin-top: 10px;
-width: 50%;
+width: 100%;
 padding: 15px;
 border:1px solid #342F36;
 }
@@ -269,9 +270,17 @@ clear: both;
 
 textarea {
 	width: 100%;
-	max-width: 100%;
 	padding: 10px;
-	border: 1px solid #ebebeb;}
+	border: 1px solid #342F36;}
+	
+@media screen and (min-width: 750px){
+	.containerform1 {
+		float: left;
+		width: 50%;}
+	.containerform2 {
+		float: right;
+		width: 50%;}
+		}
 
 /***************************
 ****************************
