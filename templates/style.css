@@ -311,7 +311,13 @@ footer {
   padding-bottom: 1em;
   margin-top: 30px;
   text-align: center;}
-  
+@media screen and (min-width: 800px){
+  footer {
+   max-width: 900px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;}}
+   
 .contact {
   float: left;
   width: 33.33%;
