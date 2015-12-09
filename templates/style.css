@@ -275,6 +275,12 @@ margin: 30px auto 0;
 clear: both;
 }
 
+textarea {
+	width: 100%;
+	max-width: 100%;
+	padding: 10px;
+	border: 1px solid #ebebeb;
+
 /***************************
 ****************************
 These are the styles for
