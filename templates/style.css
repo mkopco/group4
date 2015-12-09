@@ -25,7 +25,7 @@ body {
 @media screen and (max-width: 414px){
     #wrapper {
         font-size:.35em;}}
-
+nav {
       display: table;
 	  width: 75%;}
     
