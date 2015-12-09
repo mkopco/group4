@@ -209,19 +209,14 @@ h1 {
 }
 
 
-=======
+
 cite {
   margin-bottom: 2em;
   margin-left: 15%;
   margin-top: 1em;
   display: block;}
-@media screen and (min-width: 600px){
-  cite {
-    margin-left: 5%;}}
-@media screen and (min-width: 825px){
-  cite {
-    margin-left: 10%;}}
->>>>>>> origin/gh-pages
+
+
 
 /***************************
 ****************************
@@ -307,13 +302,6 @@ footer {
   padding-bottom: 1em;
   margin-top: 30px;
   text-align: center;}
-
-@media screen and (min-width: 800px){
-  footer {
-   max-width: 900px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;}}
   
 .contact {
   float: left;
