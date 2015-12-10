@@ -74,6 +74,47 @@ nav li a:hover {
     width: 25%; 
     height: 60px;
     padding-bottom: 1px;}
+
+/***************************
+****************************
+These are the styles for
+the big quote
+****************************
+***************************/
+.quote {
+  background-repeat: no-repeat;
+  background-position: 0;
+  position: relative;
+  background-image: url("red_car.jpg");
+}
+
+p.quote {
+  text-align: left;
+  color: #E7E7E6;
+  font-family: "open sans", sans-serif;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  letter-spacing: 0.8px;
+  font-weight: 800;
+  padding: 30px;
+}
+img {
+ max-width: 100%;
+ height: auto;
+ background-size: 100%}
+    
+@media screen and (min-width: 414px){
+p.quote {
+  font-size: 3em;
+  padding: 60px;}
+  }
+
+@media screen and (min-width: 800px){
+  p.quote {
+  font-size: 5em;
+  padding: 120px;}
+  }
   
 /***************************
 ****************************
@@ -150,33 +191,6 @@ p {
 /***************************
 ****************************
 These are the styles for
-the blockquotes
-****************************
-***************************/
-blockquote {
-  width: 70%;
-  text-align: left;
-  margin: 0 auto;
-  border-top: 4px solid  rgb(148, 44, 32);;
-  padding-top: 1em;}
-
-@media screen and (min-width: 475px){
-  blockquote {
-    max-width: 70%;
-    font-size: px;}}
-@media screen and (min-width: 600px){
-  blockquote {
-    max-width: 90%;
-    padding: 1.2em;
-    font-size: 20px;}}
-@media screen and (min-width: 825px){
-  blockquote {
-    max-width: 80%;
-    font-size: 28px;}}
-
-/***************************
-****************************
-These are the styles for
 the tips drop down
 ****************************
 ***************************/
@@ -192,10 +206,10 @@ the tips drop down
 
 #accordion label {
 	background: #2E2E2E;
-	border-radius: .25em;
+	border-radius: .125em;
 	cursor: pointer;
 	display: block;
-	margin-bottom: .125em;
+	margin-bottom: .75em;
 	padding: .25em 1em;
 	z-index: 20;
   color: #E7E7E6;
@@ -234,7 +248,6 @@ the tips drop down
 	height: auto;
 	margin-bottom: .125em;
 }
-
 
 cite {
   margin-bottom: 2em;
@@ -286,7 +299,7 @@ textarea {
 	width: 100%;
 	padding: 10px;
 	border: 1px solid #342F36;}
-	
+
 	
 @media screen and (min-width: 750px){
 	.containerform1 {
@@ -342,44 +355,31 @@ footer {
   padding-top: 1em;
   padding-bottom: 2em;}
   }
-  
 /***************************
 ****************************
 These are the styles for
-the big quote
+the blockquotes
 ****************************
 ***************************/
-.quote {
-  background-repeat: no-repeat;
-  background-position: 0;
-  position: relative;
-  background-image: url("red_car.jpg");
-}
-
-p.quote {
+blockquote {
+  width: 70%;
   text-align: left;
-  color: #E7E7E6;
-  font-family: "open sans", sans-serif;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-  font-size: 2em;
-  letter-spacing: 0.8px;
-  font-weight: 800;
-  padding: 30px;
-}
-img {
- max-width: 100%;
-    height: auto}
-    
-@media screen and (min-width: 414px){
-p.quote {
-  font-size: 3em;
-  padding: 60px;}
-  }
+  margin: 0 auto;
+  border-top: 4px solid  rgb(148, 44, 32);;
+  padding-top: 1em;}
 
-@media screen and (min-width: 800px){
-  p.quote {
-  font-size: 5em;
-  padding: 120px;}
-  }
+@media screen and (min-width: 475px){
+  blockquote {
+    max-width: 70%;
+    font-size: px;}}
+@media screen and (min-width: 600px){
+  blockquote {
+    max-width: 90%;
+    padding: 1.2em;
+    font-size: 20px;}}
+@media screen and (min-width: 825px){
+  blockquote {
+    max-width: 80%;
+    font-size: 28px;}}
+    
   
