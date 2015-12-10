@@ -12,8 +12,9 @@ body {
   max-width: 10000px;
   border: 0px;
   max-width: 100%;
+  margin: 0;
   border-top: 0px;
-  padding-top: 20px;
+  padding-top: 60px;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
   color: #342F36;}
@@ -81,23 +82,16 @@ These are the styles for
 the big quote
 ****************************
 ***************************/
-.quote {
-  background-repeat: no-repeat;
-  background-position: 0;
-  position: relative;
-  background-image: url("red_car.jpg");
-}
+
 
 p.quote {
   text-align: left;
   color: #E7E7E6;
   font-family: "open sans", sans-serif;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
   font-size: 2em;
   letter-spacing: 0.8px;
   font-weight: 800;
-  padding: 30px;
+  padding: 1em;
 }
 img {
  max-width: 100%;
@@ -116,6 +110,12 @@ p.quote {
   padding: 120px;}
   }
   
+.container {
+  background-image: url("red_car.jpg");
+  background-size: cover; 
+  height: 100vh;
+  display: flex;
+  align-items: center;} 
 /***************************
 ****************************
 These are the styles for
@@ -146,7 +146,7 @@ h1, h2, h3 {
 	color: #952A20;}
 
 main {
-  margin-top: 75px;}
+  padding: 1em;}
 
 .formhead {
   background-color:black;}
@@ -176,16 +176,12 @@ p {
 	.containerleft {
   	float: left;
 	width: 50%;
-	padding: 10px, 120px;
-	margin-left: 100px;
-	margin-right: 100px;}
+	padding: 25px;}
 	
 	.containerright {
 	float: right;
 	width: 50%;
-	padding: 10px, 120px;
-	margin-left: 100px;
-	margin-right: 100px;}
+	padding: 25px;}
 	}
 	
 /***************************
@@ -263,7 +259,10 @@ These are the styles for
 the form.
 ****************************
 ***************************/
-
+form { 
+    width: 80%;
+    margin: 0 auto;}
+    
 input[type="text"]{
 	margin-bottom: 10px;
 	margin-top: 10px;
@@ -305,11 +304,11 @@ textarea {
 	.containerform1 {
 		float: left;
 		width: 50%;
-		padding: 10px, 120px;}
+		padding: 10px 10px 0 0;}
 	.containerform2 {
 		float: right;
 		width: 50%;
-		padding: 10px, 120px;}
+		padding: 10px 0 0 10px;}
 		}
 
 /***************************
