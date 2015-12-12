@@ -203,12 +203,12 @@ p {
 	.containerleft {
   	float: left;
 	width: 50%;
-	padding: 25px;}
+	padding: 50px;}
 	
 	.containerright {
 	float: right;
 	width: 50%;
-	padding: 25px;}
+	padding: 50px;}
 	}
 	
 /***************************
