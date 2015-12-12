@@ -43,9 +43,13 @@ the nav bar
 @media screen and (max-width: 414px){
     #wrapper {
         font-size:.35em;}}
-nav {
-      display: table;
-	  width: 75%;}
+
+	nav {
+	  display: table;
+	  width: 100%;}
+@media screen and (min-width: 414px){
+	nav {
+	  width: 75%;}}
     
 nav ul {
       display: table-row;}
@@ -70,11 +74,17 @@ nav li a:hover {
       display: block;
       color: #342F36;}
       
-.barlogo {
+.barlogo{
+	margin-left: 40%;
+	height: 40px;}
+	
+@media screen and (min-width: 414px){
+    .barlogo {
 	float: left;
     width: 25%; 
     height: 60px;
-    padding-bottom: 1px;}
+    padding-bottom: 1px;
+    margin-left: 0;}}
 
 /***************************
 ****************************
