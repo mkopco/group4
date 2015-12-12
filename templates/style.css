@@ -326,7 +326,7 @@ the staff
   font-weight: bold;
   margin-bottom: .5em;}
 
-dd {
+.red2 {
   text-align: center;
   margin-left: 0;
   margin-bottom: 1em;
@@ -368,7 +368,7 @@ the footer.
 ***************************/
 dt {
   text-align: center;
-  color: #4D8BC9;
+  color: #E7E7E6;
   text-transform: uppercase;
   font-size: .9em;
   font-weight: bold;
@@ -380,7 +380,7 @@ dd {
   margin-bottom: 1em;
   font-size: .9em;
   line-height: 1.5;
-  color: #342F36;}
+  color: #E7E7E6;}
 
 footer a {
   color: #342F36;}
@@ -388,11 +388,12 @@ footer a {
 footer {
   padding-bottom: 1em;
   margin-top: 30px;
-  text-align: center;}
+  text-align: center;
+  background-color: rgb(148, 44, 32);}
   
 @media screen and (min-width: 750px){
   footer {
-   max-width: 900px;
+   max-width: 1700px;
    text-align: center;
    margin-left: auto;
    margin-right: auto;}
@@ -401,7 +402,8 @@ footer {
   float: left;
   width: 33.33%;
   padding-top: 1em;
-  padding-bottom: 2em;}
+  padding-bottom: 2em;
+  background-color: rgb(148, 44, 32);}
   }
 /***************************
 ****************************
