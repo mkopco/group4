@@ -312,6 +312,54 @@ textarea {
 		width: 50%;
 		padding: 10px 0 0 10px;}
 		}
+/***************************
+****************************
+These are the styles for
+the staff
+****************************
+***************************/
+    
+  .redone {
+  text-align: center;
+  color: #952A20;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: bold;
+  margin-bottom: .5em;}
+
+dd {
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 1em;
+  font-size: .9em;
+  line-height: 1.5;
+  color: #342F36;
+  }
+
+.personinfo a {
+  color: #342F36;}
+  
+.personinfo {
+  padding-bottom: 1em;
+  margin-top: 30px;
+  text-align: center;}
+  
+@media screen and (min-width: 750px){
+  .personinfo {
+   max-width: 900px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;}
+   
+  @media screen and (max-width: 750px){
+    dd {
+      width: 40%;}}
+.name {
+  float: left;
+  width: 33.33%;
+  padding-top: 1em;
+  padding-bottom: 2em;}
+  }
 
 /***************************
 ****************************
@@ -383,4 +431,3 @@ blockquote {
     max-width: 80%;
     font-size: 28px;}}
     
-  
