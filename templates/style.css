@@ -42,7 +42,8 @@ the nav bar
         font-size:.60em;}}
 @media screen and (max-width: 414px){
     #wrapper {
-        font-size:.35em;}}
+        font-size:.35em;
+        position: absolute;}}
 
 	nav {
 	  display: table;
@@ -75,7 +76,7 @@ nav li a:hover {
       color: #342F36;}
       
 .barlogo{
-	margin-left: 40%;
+	margin-left: 36%;
 	height: 40px;}
 	
 @media screen and (min-width: 414px){
