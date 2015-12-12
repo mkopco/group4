@@ -76,6 +76,21 @@ nav li a:hover {
     height: 60px;
     padding-bottom: 1px;}
 
+/***************************
+****************************
+These are the styles for
+the about
+****************************
+***************************/
+
+.containercenter {
+ 	width: 40%;
+    margin: 0 auto;
+    text-align: center;}
+    
+h1.about{
+	text-align: center;}
+	
 
 /***************************
 ****************************
@@ -117,6 +132,7 @@ p.quote {
   height: 100vh;
   display: flex;
   align-items: center;} 
+  
 /***************************
 ****************************
 These are the styles for
@@ -405,6 +421,7 @@ footer {
   padding-bottom: 2em;
   background-color: rgb(148, 44, 32);}
   }
+  
 /***************************
 ****************************
 These are the styles for
