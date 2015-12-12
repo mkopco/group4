@@ -214,6 +214,10 @@ p {
 	padding: 50px;}
 	}
 	
+@media screen and (min-width: 950px) {
+.containerleft {
+	padding: 90px;}}
+	
 /***************************
 ****************************
 These are the styles for
