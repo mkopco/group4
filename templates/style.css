@@ -93,10 +93,12 @@ p.quote {
   font-weight: 800;
   padding: 1em;
 }
+
 img {
  max-width: 100%;
  height: auto;
- background-size: 100%}
+ background-size: 100%;
+ position: relative;}
     
 @media screen and (min-width: 414px){
 p.quote {
