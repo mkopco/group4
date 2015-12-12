@@ -76,13 +76,13 @@ nav li a:hover {
     height: 60px;
     padding-bottom: 1px;}
 
+
 /***************************
 ****************************
 These are the styles for
 the big quote
 ****************************
 ***************************/
-
 
 p.quote {
   text-align: left;
@@ -97,8 +97,7 @@ p.quote {
 img {
  max-width: 100%;
  height: auto;
- background-size: 100%;
- position: relative;}
+ background-size: 100%;}
     
 @media screen and (min-width: 414px){
 p.quote {
