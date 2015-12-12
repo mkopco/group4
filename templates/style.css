@@ -93,14 +93,16 @@ These are the styles for
 the about
 ****************************
 ***************************/
-
-.containercenter {
- 	width: 40%;
-    margin: 0 auto;
-    text-align: center;}
-    
-h1.about{
-	text-align: center;}
+blockquote.customerquote {
+width: 50%;
+  font-size: 1.2em;
+  text-align: left;
+  display: block;
+  margin-left: 15%;
+  font-weight: 600;
+  pading-top: 10px;
+  border-top: 2px solid #342F36;
+  margin: 0 auto;}
 	
 
 /***************************
