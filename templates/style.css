@@ -335,55 +335,7 @@ textarea {
 		width: 50%;
 		padding: 10px 0 0 10px;}
 		}
-/***************************
-****************************
-These are the styles for
-the staff
-****************************
-***************************/
-    
-  .redone {
-  text-align: center;
-  color: #952A20;
-  text-transform: uppercase;
-  font-size: .9em;
-  font-weight: bold;
-  margin-bottom: .5em;
-  font-weight: 700;}
 
-.red2 {
-  text-align: center;
-  margin-left: 0;
-  margin-bottom: 1em;
-  font-size: .9em;
-  line-height: 1.5;
-  color: #342F36;
-  }
-
-.personinfo a {
-  color: #342F36;}
-  
-.personinfo {
-  padding-bottom: 1em;
-  margin-top: 30px;
-  text-align: center;}
-  
-@media screen and (min-width: 750px){
-  .personinfo {
-   max-width: 900px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;}
-   
-  @media screen and (max-width: 750px){
-    dd {
-      width: 40%;}}
-.name {
-  float: left;
-  width: 33.33%;
-  padding-top: 1em;
-  padding-bottom: 2em;}
-  }
 
 /***************************
 ****************************
@@ -434,14 +386,21 @@ footer {
 /***************************
 ****************************
 These are the styles for
-the blockquotes
+the About Page
+****************************
+***************************/
+
+/***************************
+****************************
+These are the styles for
+the blockquote
 ****************************
 ***************************/
 blockquote {
   width: 50%;
   text-align: left;
   margin: 0 auto;
-  border-top: 4px solid rgb(148, 44, 32);
+  border-top: 4px solid #952A20;
   padding-top: 1em;
   font-size: .95em;
   font-style: 600;}
@@ -459,4 +418,54 @@ blockquote {
   blockquote {
     max-width: 50%;
     font-size: 1em;}}
+    
+/***************************
+****************************
+These are the styles for
+the staff
+****************************
+***************************/
+    
+  .redone {
+  text-align: center;
+  color: #952A20;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: bold;
+  margin-bottom: .5em;
+  font-weight: 700;}
+
+.red2 {
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 1em;
+  font-size: .9em;
+  line-height: 1.5;
+  color: #342F36;
+  }
+
+.personinfo a {
+  color: #342F36;}
+  
+.personinfo {
+  padding-bottom: 1em;
+  margin-top: 30px;
+  text-align: center;}
+  
+@media screen and (min-width: 750px){
+  .personinfo {
+   max-width: 900px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;}
+   
+  @media screen and (max-width: 750px){
+    dd {
+      width: 40%;}}
+.name {
+  float: left;
+  width: 33.33%;
+  padding-top: 1em;
+  padding-bottom: 2em;}
+  }
     
