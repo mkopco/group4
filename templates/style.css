@@ -461,18 +461,15 @@ the staff
   
 @media screen and (min-width: 750px){
   .personinfo {
-   max-width: 900px;
+   max-width: 1700px;
    text-align: center;
    margin-left: auto;
    margin-right: auto;}
    
-  @media screen and (max-width: 750px){
-    dd {
-      width: 40%;}}
 .name {
   float: left;
   width: 33.33%;
   padding-top: 1em;
   padding-bottom: 2em;}
-  }
+  
     
