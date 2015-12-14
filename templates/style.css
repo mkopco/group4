@@ -31,9 +31,11 @@ the nav bar
       position:fixed; 
       top: 0;
       width: 100%;
+      padding: 10px;
       left: 0;
       background-color: rgba(148, 44, 32,.98);
-      z-index: 100;}
+      z-index: 100;
+      text-align: center;}
 @media screen and (max-width: 664px){
     #wrapper {
         font-size:.70em;}}
@@ -76,7 +78,7 @@ nav li a:hover {
       color: #342F36;}
       
 .barlogo{
-	margin-left: 36%;
+	margin: 0 auto;
 	height: 40px;}
 	
 @media screen and (min-width: 414px){
@@ -201,8 +203,7 @@ p {
 	.containerright {
 	float: right;
 	width: 50%;
-	padding: 50px;
-	margin-top: 75px;}
+	padding: 0 90px 0 90px;}
 	
 	h1.about {
 	text-align: center;}
@@ -210,10 +211,7 @@ p {
 	
 @media screen and (min-width: 950px) {
 .containerleft {
-	padding: 90px;}
-
-.containerright {
-	margin-top: 115px;}}
+	padding: 0 90px 40px 90px;}}
 	
 /***************************
 ****************************
@@ -290,6 +288,9 @@ These are the styles for
 the form.
 ****************************
 ***************************/
+.appointment-schedule {
+	clear:left;}
+
 form { 
     width: 80%;
     margin: 0 auto;}
@@ -372,7 +373,8 @@ footer {
   padding-bottom: 1em;
   margin-top: 30px;
   text-align: center;
-  background-color: rgb(148, 44, 32);}
+  background-color: rgb(148, 44, 32);
+  clear: left;}
   
 @media screen and (min-width: 750px){
   footer {
@@ -415,7 +417,7 @@ blockquote {
 @media screen and (min-width: 414px){
   blockquote {
   width: 50%;
-  margin: 0 auto;
+  margin: 0 auto;}}
 @media screen and (min-width: 475px){
   blockquote {
     max-width: 50%;
@@ -464,21 +466,28 @@ the staff
   margin-top: 30px;
   text-align: center;}
   
+.name {
+	text-align: center;
+	padding: 15px;}
+
+.faces {
+	max-width: 45%;}
+  
 @media screen and (min-width: 750px){
   .personinfo {
    max-width: 1700px;
    text-align: center;
    margin-left: auto;
    margin-right: auto;}
-   
-.name {
+   .name {
   float: left;
   width: 33.33%;
   padding-top: 1em;
-  padding-bottom: 2em;}
-  
-.faces {
-  max-width: 20%;}
+  padding-bottom: 2em;
+  }
+  .faces {
+  max-width: 45%;}
+}
     
     
 /***************************
@@ -490,7 +499,7 @@ the Services Page
 .containerservices {
 	background-image: url("jump.jpg");
   	background-size: cover; 
-  	height: 100vh;
+  	height: 60vh;
   	display: flex;
   	align-items: center;} 
 
