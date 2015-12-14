@@ -494,20 +494,5 @@ the Services Page
   	display: flex;
   	align-items: center;} 
 
-services { 
-    width: 80%;
-    margin: 0 auto;}
-
-	
-@media screen and (min-width: 750px){
-	.containerservices1 {
-		float: left;
-		width: 50%;
-		padding: 10px 10px 0 0;}
-	.containerservices2 {
-		float: right;
-		width: 50%;
-		padding: 10px 0 0 10px;}
-		}
 
 	
