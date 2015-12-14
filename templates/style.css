@@ -33,7 +33,7 @@ the nav bar
       width: 100%;
       padding: 10px;
       left: 0;
-      background-color: rgba(148, 44, 32,.98);
+      background-color: rgb(148, 44, 32);
       z-index: 100;
       text-align: center;}
 @media screen and (max-width: 664px){
@@ -70,7 +70,7 @@ nav li a {
       font-family: 'Open Sans', sans;
       font-size: 1em;
       color: #E7E7E6;
-      background-color: rgb(148, 44, 32,.98);}
+      background-color: rgb(148, 44, 32);}
 
 nav li a:hover {
       background-color: rgb(230, 231, 231);
