@@ -395,7 +395,12 @@ These are the styles for
 the About Page
 ****************************
 ***************************/
-
+.containerabout {
+	background-image: url("corvette.jpg");
+  	background-size: cover; 
+  	height: 60vh;
+  	display: flex;
+  	align-items: center;} 
 /***************************
 ****************************
 These are the styles for
@@ -475,3 +480,34 @@ the staff
 .faces {
   max-width: 20%;}
     
+    
+/***************************
+****************************
+These are the styles for
+the Services Page
+****************************
+***************************/
+.containerservices {
+	background-image: url("jump.jpg");
+  	background-size: cover; 
+  	height: 100vh;
+  	display: flex;
+  	align-items: center;} 
+
+services { 
+    width: 80%;
+    margin: 0 auto;}
+
+	
+@media screen and (min-width: 750px){
+	.containerservices1 {
+		float: left;
+		width: 50%;
+		padding: 10px 10px 0 0;}
+	.containerservices2 {
+		float: right;
+		width: 50%;
+		padding: 10px 0 0 10px;}
+		}
+
+	
