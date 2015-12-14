@@ -14,7 +14,9 @@
 <h1>Pattern Library<h1>
 
 <h2>Colors</h2> 
+
 <h2>Typography</h2>
+
 <h2>Header/ Navigation</h2>
 	<div id="wrapper">
 	  <img src="index.svg" alt="Company Logo" class="barlogo"/>
@@ -56,13 +58,88 @@
 
 <h2>Paragraphs</h2>
 <div class="containercenter">
-			<h1 class="about">Our Services</h1>
-			<p>Since 1997 our ASE Certified, factory trained technicians have been serving customers just like you. 
-			With over 45 years of combined experience our NAPA Auto Care Center knows what you need. 
-			We specializing in Jasper Replacement Engines, Transmissions and Differentials Replacement and Repair. 
-			We use electrical diagnostics and state of the art equipment.<p>
+	<h1 class="about">Our Services</h1>
+		<p>Since 1997 our ASE Certified, factory trained technicians have been serving customers just like you. 
+		With over 45 years of combined experience our NAPA Auto Care Center knows what you need. 
+		We specializing in Jasper Replacement Engines, Transmissions and Differentials Replacement and Repair. 
+		We use electrical diagnostics and state of the art equipment.</p>
 	</div>
-<h2>Buttons</h2>
+	
+<h2>Drop Down</h2>
+<div class="containerright">
+		<header>
+			<h1>Tips</h1>
+		</header>
+		<section id="accordion">
+			<div>
+				<input type="radio" name="accordion-group"  id="check-1" />
+				<label for="check-1">How often should I rotate my tires?</label>
+				<article>
+					<p>Your tires should be rotated every other oil change or every 6,000 miles. Neglecting to rotate tires is a major cause of premature tire wear.</p>
+				</article>
+			</div>
+			<div>
+				<input type="radio" name="accordion-group"  id="check-2" />
+				<label for="check-2">What should I do if my car starts to overheat?</label>
+				<article>
+					<p>This is a very serious problem. If your car overheats for too long, you can damage your engine. Find a safe place to pull off the road and shut off the engine as soon as possible. Do not attempt to check the fluid level in the radiator as it can burn you. The best thing to do is have your car towed to a repair shop.</p>
+				</article>
+			</div>
+			<div>
+				<input type="radio" name="accordion-group"  id="check-3" />
+				<label for="check-3">When should I get my oil changed?</label>
+				<article>
+					<p>You should get your oil changed every 3,000 miles or as recommended in your vehicle’s owner’s manual. If intervals are extended, ensure you use oil that is capable of extended mileage changes.</p>
+				</article>
+			</div>
+			<div>
+				<input type="radio" name="accordion-group"  id="check-4" />
+<label for="check-4">How do I know when to replace my brakes?</label>
+				<article>
+					<p>If you hear squeaks, squeals, grinding or other noises, there could be a problem. The exception to this rule is if your car has been exposed to moisture recently. Moisture can cause a thin layer of rust to develop, and slight squeaking immediately after rain is not unusual. If the squeaking continues, have your brakes inspected. Periodically check wear on your brake pads through the spaces between your wheels’ spokes. The outside pad will be pressed against a metal rotor, and there should be at least ¼ inch of pad. Any less, and you’ll want to have the pads inspected or replaced.</p>
+				</article>
+      </div>
+		</section>
+  </div>
+  </div>
+
 <h2>Lists</h2>
-<link href="templates/style.css" rel="stylesheet" type="text/css" media="screen"/> 
+<!--Services List-->   
+<div class="containerleft">
+	<h3>Maintenance</h3>
+  	<ul style="list-style-type:none">
+  	<li>Oil Filter</li>
+  	<li>Oil Change</li>
+  	<li>Engine Oil</li>
+  	<li>Cooling System Service</li>
+  	<li>Air Conditioning Service</li>
+  	<li>Driveline Service</li>
+  	<li>Fuel/Air Induction Clean-up</li>
+  	<li>Power Steering Flush</li>
+  	<li>Transmission Service</li>
+  	<li>Brake Service</li>
+  	</div>
+
+
+<h2>Form</h2>
+<!--Appointment Form-->     
+<a name="schedule"> 
+<div class="appointment-schedule">
+	<h2>Schedule Your Appointment</h2></a>
+	<form>
+	<div class="containerform1">
+	<input type="text" class="" name="firstname" value="First Name"><br>
+	<input type="text" class="" name="lastname" value="Last Name"><br>
+	<input type="text" class="" name="email" value="Email"><br>
+	</div>
+	<div class="containerform2">
+	<input type="text" class="" name="phone" value="Phone"><br>
+	<input type="text" class="" name="date" value="Date of Appointment"><br>
+	<input type="text" class="" name="time" value="Time"><br>
+	</div>
+	<textarea class="" rows="6">Tell us about your vehicle and the types of problems it is having.</textarea><br>
+	<p class="submit-btn"><input type="submit" value="Submit"></p>
+</form>
+	</div>	
 </body>
+</html>
