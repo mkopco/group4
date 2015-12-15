@@ -535,8 +535,9 @@ These are the styles for
 the Project Timeline
 ****************************
 ***************************/
+
 hr {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 1em;
     padding: 0;
     border: .75px solid #342F36;
@@ -558,4 +559,10 @@ hr {
 
 .swatch-darkgray {
     background-color: #342F36;
+}
+
+
+@media screen and (min-width: 880px)
+main {
+    padding: 2.5em;
 }
