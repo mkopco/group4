@@ -536,11 +536,9 @@ the Project Timeline
 ****************************
 ***************************/
 
-hr {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding: 0;
-    border: .75px solid #342F36;
+.emdash {
+    text-align: center;
+    font-size: 2.25em;}
     
 .swatch {
     width: 70px;
