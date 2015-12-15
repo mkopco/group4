@@ -535,7 +535,9 @@ These are the styles for
 the Project Timeline
 ****************************
 ***************************/
-
+.dropdownnumber1{
+	padding: 0 50px 0 50px}
+	
 .swatches {
     width: 70px;
     height: 70px;
@@ -553,10 +555,4 @@ the Project Timeline
 
 .swatch-darkgray {
     background-color: #342F36;
-}
-
-
-@media screen and (min-width: 880px)
-main {
-    padding: 2.5em;
 }
