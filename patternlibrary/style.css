@@ -28,7 +28,7 @@ the nav bar
 ***************************/    
 #wrapper {
       max-width: 100%;
-      position:fixed; 
+      position:absolute; 
       top: 0;
       width: 100%;
       padding: 10px;
