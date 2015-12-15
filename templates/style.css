@@ -507,7 +507,7 @@ the Services Page
 /***************************
 ****************************
 These are the styles for
-the OTHER STUFF!!!!!!
+the Project Timeline
 ****************************
 ***************************/
 .body2 {
@@ -529,3 +529,19 @@ the OTHER STUFF!!!!!!
 .headd {
  text-align: left;}
 	
+/***************************
+****************************
+These are the styles for
+the Project Timeline
+****************************
+***************************/
+.swatch {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 1em 1.5em;
+}
+
+.swatch-red {
+    background-color: #952A20;
+}
