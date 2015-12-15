@@ -38,21 +38,27 @@ the nav bar
       text-align: center;}
 @media screen and (max-width: 664px){
     #wrapper {
-        font-size:.70em;}}
+        font-size:.70em;}
+}
+
 @media screen and (max-width: 472px){
     #wrapper {
-        font-size:.60em;}}
+        font-size:.60em;}
+}
+
 @media screen and (max-width: 414px){
     #wrapper {
         font-size:.35em;
-        position: absolute;}}
+        position: absolute;}
+}
 
 	nav {
 	  display: table;
 	  width: 100%;}
 @media screen and (min-width: 414px){
 	nav {
-	  width: 75%;}}
+	  width: 75%;}
+}
     
 nav ul {
       display: table-row;}
@@ -87,7 +93,8 @@ nav li a:hover {
     width: 25%; 
     height: 60px;
     padding-bottom: 1px;
-    margin-left: 0;}}
+    margin-left: 0;}
+}
 
 
 /***************************
@@ -116,13 +123,13 @@ img {
 p.quote {
   font-size: 3em;
   padding: 60px;}
-  }
+}
 
 @media screen and (min-width: 800px){
   p.quote {
   font-size: 5em;
   padding: 120px;}
-  }
+}
   
 .container {
   background-image: url("red_car.jpg");
@@ -192,7 +199,8 @@ p {
     margin: 0 auto;}
   	
   	.containerright {
-  	float: 0;}}
+  	float: 0;}
+}
 
 @media screen and (min-width: 800px) {
 	.containerleft {
@@ -207,11 +215,12 @@ p {
 	
 	h1.about {
 	text-align: center;}
-	}
+}
 	
 @media screen and (min-width: 950px) {
 .containerleft {
-	padding: 0 90px 40px 90px;}}
+	padding: 0 90px 40px 90px;}
+}
 	
 /***************************
 ****************************
@@ -341,7 +350,7 @@ textarea {
 		float: right;
 		width: 50%;
 		padding: 10px 0 0 10px;}
-		}
+}
 
 
 /***************************
@@ -389,7 +398,7 @@ footer {
   padding-top: 1em;
   padding-bottom: 2em;
   background-color: rgb(148, 44, 32);}
-  }
+}
   
 /***************************
 ****************************
@@ -414,24 +423,32 @@ blockquote {
   text-align: left;
   padding-top: 1em;
   font-size: .95em;}
+  
 @media screen and (min-width: 414px){
   blockquote {
   width: 50%;
-  margin: 0 auto;}}
+  margin: 0 auto;}
+}
+
 @media screen and (min-width: 475px){
   blockquote {
     max-width: 50%;
-    font-size: 1em;}}
+    font-size: 1em;}
+}
+
 @media screen and (min-width: 600px){
   blockquote {
     max-width: 90%;
     padding: 1.2em;
-    font-size: 1em;}}
+    font-size: 1em;}
+}
+
 @media screen and (min-width: 825px){
   blockquote {
     max-width: 50%;
     font-size: 1em;
-    margin-top: 115px;}}
+    margin-top: 115px;}
+}
     
 /***************************
 ****************************
@@ -522,7 +539,6 @@ the Project Timeline
  font-size: 1.5em;
  text-transform: uppercase;}
  
-
 .lists {
  list-style-type: none;}
  
