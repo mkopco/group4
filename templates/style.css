@@ -513,13 +513,6 @@ the OTHER STUFF!!!!!!
 .body2 {
  padding: 0 30px 30px 30px;}
  
- .body2 a {
- color: #342F36;
- text-decoration: none;}
- 
- .body2 a:hover {
- color: rgb(148, 44, 32);
- font-size: 1.5em;}
  
  .lists {
  list-style-type: none;}
