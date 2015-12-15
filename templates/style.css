@@ -535,6 +535,12 @@ These are the styles for
 the Project Timeline
 ****************************
 ***************************/
+hr {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 0;
+    border: .75px solid #342F36;
+    
 .swatch {
     width: 70px;
     height: 70px;
