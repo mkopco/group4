@@ -517,11 +517,11 @@ the OTHER STUFF!!!!!!
  text-decoration: none;
  color: #342F36;}
  
- .body2 a:hover {
+.body2 a: hover {
  color: rgb(148, 44, 32)
  font-size: 1.5em;}
  
- .lists {
+.lists {
  list-style-type: none;}
  
 .headd {
